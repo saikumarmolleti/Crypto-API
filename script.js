@@ -10,7 +10,7 @@ fetch(
     let table_data = '';
     coinDataObject.map((coin) => {
       table_data += `<tr>
-     <td class="coin"><img src="${coin.image}">${coin.name}</td>
+     <td><img src="${coin.image}">${coin.name}</td>
      <td class="symbol">${coin.symbol}</td>
      <td class="price" >$${coin.current_price}</td>
      <td class="total" >$${coin.market_cap.toLocaleString()}</td>
