@@ -14,9 +14,9 @@ fetch(
      <td class="symbol">${coin.symbol}</td>
      <td class="price" >$${coin.current_price}</td>
      <td class="total" >$${coin.market_cap.toLocaleString()}</td>
-     <td class="per" > ${Number.parseFloat(
-       coin.price_change_percentage_24h
-     ).toFixed(2)}% </td>
+     <td id="per" class="${
+       coin.price_change_percentage_24h > 0 ? 'text-success' : 'text-danger'
+     }">${parseFloat(coin.price_change_percentage_24h).toFixed(2)}% </td>
      <td class="cap" >Mkt Cap: ${coin.total_volume}</td>
      </tr>`;
     });
