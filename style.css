@@ -15,11 +15,6 @@ img {
   width: 35px;
 }
 
-.coin {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
 
 .symbol {
   text-transform: uppercase;
