@@ -1,7 +1,5 @@
-* {
-  background-color: rgb(25, 25, 25);
-  color: rgb(232, 232, 232);
-  font-size: larger;
+body {
+  font-size: medium;
 }
 
 table {
@@ -16,33 +14,33 @@ td {
 }
 
 img {
- margin-right: 10px;
+  margin-right: 10px;
   width: 35px;
 }
 
-.coin{
- display: flex;
- align-items: center;
- justify-content: left;
+.coin {
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
-.symbol{
- text-transform: uppercase;
+.symbol {
+  text-transform: uppercase;
 }
 
-.per{
- color:green;
- text-align: end;
+#per {
+  text-align: end;
 }
 
 .price {
   text-align: end;
 }
 
-.total{
- text-align: end;
+.total {
+  text-align: end;
 }
 
-.cap{
- text-align: end;
+.cap {
+  text-align: end;
 }
+
