@@ -17,7 +17,7 @@ fetch(
      <td id="per" class="${
        coin.price_change_percentage_24h > 0 ? 'text-success' : 'text-danger'
      }">${parseFloat(coin.price_change_percentage_24h).toFixed(2)}% </td>
-     <td class="cap" >Mkt Cap: ${coin.total_volume}</td>
+     <td class="cap" >Mkt Cap: $${coin.total_volume.toLocaleString()}</td>
      </tr>`;
     });
     document.getElementById('tableData').innerHTML = table_data;
